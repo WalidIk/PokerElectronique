@@ -19,8 +19,7 @@ int main(int argc, char *argv[])
     char JeuxDeCarte[MAX][MAX];
     int JeuxActuel[NB_CARTE] = RAZ_CARTE;
 
-
-    //Déclaration des variables vidéo
+    //DÃ©claration des variables vidÃ©o
     SDL_Surface *ecran = NULL;
     SDL_Surface *carte[NB_CARTE] = RAZ_CARTE;
     SDL_Rect position_carte[NB_CARTE];
@@ -40,7 +39,6 @@ int main(int argc, char *argv[])
     int MainGarder[NB_CARTE] = RAZ_CARTE;
     char *JeuxActuel1[NB_CARTE] = RAZ_CARTE;
     int Credit = CREDIT;
-    int lol = 19;
     //Declaration du flag permettant de gerer les etapes du jeu
     FLAG FLAG;
 
